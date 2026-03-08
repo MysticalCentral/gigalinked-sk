@@ -1,3 +1,6 @@
 command /glinfo:
   trigger:
     broadcast formatted "https://gigalinked.com"
+command /frrrr:
+  trigger:
+    broadcast formatted "eh frfrfrfr"
