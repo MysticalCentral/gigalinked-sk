@@ -1,0 +1,3 @@
+command /glinfo:
+  trigger:
+    broadcast formatted "https://gigalinked.com"
