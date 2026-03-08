@@ -1,0 +1,3 @@
+command /newfile:
+  trigger:
+    broadcast formatted "newfile shit works :DDDD"
