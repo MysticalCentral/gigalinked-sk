@@ -1,28 +1,6 @@
 options:
     prefix: "&7[&bGigaLinked&7] &r"
 
-command /broadcast:
+command /bruh:
     trigger:
-        if arg 1 is not set:
-            send "&cUsage: /broadcast <message>"
-            stop
-        set {_message} to arg 1
-        loop arg 2 to arg length:
-            set {_message} to "%{_message}% %arg%"
-        broadcast "%prefix%%{_message}%"
-
-command /kick:
-    trigger:
-        if arg 1 is not set:
-            send "&cUsage: /kick <player> [reason]"
-            stop
-        set {_player} to arg 1
-        if player with name {_player} is not online:
-            send "&cPlayer &e%{_player}% &cis not online."
-            stop
-        set {_reason} to "No reason provided"
-        if arg 2 is set:
-            set {_reason} to arg 2
-            loop arg 3 to arg length:
-                set {_reason} to "%{_reason}% %arg%"
-        kick player with name {_player} due to "%{_reason}%"
+        broadcast formatted "&athis fucking command works yay, gh commit works tooooo..."
