@@ -4,3 +4,6 @@ options:
 command /bruh:
     trigger:
         broadcast formatted "&athis fucking command works yay, gh commit works tooooo..."
+command /glnodes:
+    trigger:
+        broadcast formatted "wtf"
